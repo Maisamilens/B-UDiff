@@ -295,8 +295,8 @@ If you use this code or the B-UDiff model in your research, please cite:
 ```bibtex
 @article{budiff2026,
   title   = {Boundary-Aware Uncertainty-Guided Diffusion Network with Progressive Refinement for 3D Glioma Segmentation},
-  author  = {<Maisam Abbas, Ran-Zan Wang>},
-  journal = {<YTBD>},
+  author  = {Maisam Abbas, Ran-Zan Wang},
+  journal = {YTBD},
   year    = {2026}
 }
 ```
