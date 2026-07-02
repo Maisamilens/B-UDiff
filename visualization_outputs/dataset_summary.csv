@@ -1,0 +1,5 @@
+split,count
+train_fullres_npz_total,1251
+internal_train_after_test_list,1001
+internal_validation_test_list,250
+external_val_fullres_npz,219

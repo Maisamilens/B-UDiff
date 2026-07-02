@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DiffUNet BraTS2025 Visualization Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 32px; color: #222; }
+    h1, h2 { margin-bottom: 8px; }
+    img { max-width: 100%; border: 1px solid #ddd; margin: 12px 0 28px; }
+    table { border-collapse: collapse; margin: 10px 0 24px; }
+    td, th { border: 1px solid #ddd; padding: 8px 10px; }
+  </style>
+</head>
+<body>
+  <h1>DiffUNet BraTS2025 Visualization Report</h1>
+  <p><b>Final epoch:</b> 499 &nbsp; <b>Final mean Dice:</b> 0.8973</p>
+  <p><b>Best logged epoch:</b> 349 &nbsp; <b>Best mean Dice:</b> 0.9027</p>
+  <h2>Training Curves</h2>
+  <img src="training_dice_curves.png" alt="Training Dice curves">
+  <img src="training_loss_lr.png" alt="Training loss and learning rate">
+  <h2>Final Metrics</h2>
+  <img src="final_validation_metrics.png" alt="Final validation metrics">
+  <h2>Dataset Summary</h2>
+  <table>
+    <tr><th>Split</th><th>Count</th></tr>
+    <tr><td>train_fullres_npz_total</td><td>1251</td></tr><tr><td>internal_train_after_test_list</td><td>1001</td></tr><tr><td>internal_validation_test_list</td><td>250</td></tr><tr><td>external_val_fullres_npz</td><td>219</td></tr>
+  </table>
+  <img src="dataset_counts.png" alt="Dataset counts">
+  <h2>Sample Case and Project Structure</h2>
+  <img src="sample_case_modalities_segmentation.png" alt="Sample case modalities and segmentation">
+  <img src="project_workflow.png" alt="Project workflow">
+  <img src="python_file_inventory.png" alt="Python file inventory">
+</body>
+</html>
